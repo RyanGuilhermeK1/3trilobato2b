@@ -3,10 +3,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 100vh;
-background-color: rgb(255, 255, 255);
+background-image: url(1_audi_rs_6_avant_legacy_traseira-35692474.jpg);
 overflow: hidden;
 position: relative;
 }
-.header{
-    background-image: url(1_audi_rs_6_avant_legacy_traseira-35692474.jpg);
-}
+
