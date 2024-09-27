@@ -65,3 +65,6 @@ position: relative;
     color: black;
     font-size: 16px;
 }
+.menu-list li a:hover{
+    color: red;
+}
