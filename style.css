@@ -30,7 +30,7 @@ position: relative;
     top: 20px;
     left: 20px;
 }
-.menubtn{
+.menu-btn{
     padding: 10px 20px;
     background-color: red;
     border: none;
@@ -40,8 +40,16 @@ position: relative;
     font-size: 16px;
     transition: background-color 0.3 ease;
 }
-.menubtn:hover{
+.menu-btn:hover{
     background-color: red;
 
+}
+.menu-list {
+    display: none;
+    list-style: none;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
 }
 
