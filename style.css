@@ -3,7 +3,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 height: 100vh;
-background-image: url(1_audi_rs_6_avant_legacy_traseira-35692474.jpg);
+background-color: rgb(173, 173, 173);
 width: 100%;
 background-repeat: no-repeat;
 overflow: hidden;
@@ -29,5 +29,19 @@ position: relative;
     position: absolute;
     top: 20px;
     left: 20px;
+}
+.menubtn{
+    padding: 10px 20px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3 ease;
+}
+.menubtn:hover{
+    background-color: red;
+
 }
 
