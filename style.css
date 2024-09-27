@@ -1,4 +1,4 @@
-header{
+.header{
 display: flex;
 justify-content: center;
 align-items: center;
@@ -8,5 +8,8 @@ width: 100%;
 background-repeat: no-repeat;
 overflow: hidden;
 position: relative;
+}
+h1.{ color: aliceblue;
+
 }
 
