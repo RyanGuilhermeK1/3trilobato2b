@@ -50,6 +50,15 @@ position: relative;
     padding: 10px;
     background-color: white;
     border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1)
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) ;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10;
 }
-
+.menu-list.show {
+    display: block;
+}
+.menu-list li{
+    margin-bottom: 10px;
+}
