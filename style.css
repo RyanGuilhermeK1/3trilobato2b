@@ -9,17 +9,3 @@ background-repeat: no-repeat;
 overflow: hidden;
 position: relative;
 }
-.banner{
-    text-align: center;
-    color: white;
-    animation: shine 4s infinite alternate;
-    position: relative;
-    padding: 50px;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(,0, 0, 0, 0.2 );
-}
-.banner h1 {
-    font-size: 3em;
-    margin-bottom: 10px;
-}
-
