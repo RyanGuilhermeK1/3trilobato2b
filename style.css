@@ -68,3 +68,17 @@ position: relative;
 .menu-list li a:hover{
     color: red;
 }
+.dropdown:hover .menu-list{
+    display: block;
+}
+@keyframes shine {
+
+0%{
+    background-image: linear-gradient(90deg,#000,#000);
+}
+100%{
+    background-image: linear-gradient(90deg, #000,#b41f1f,#21881e);
+    background-size: 200% 200%;
+    background-position: 100%;
+}
+}
